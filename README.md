@@ -1,11 +1,11 @@
 # aframe-animation-toggle-component
-An aframe component that toggles the direction of animations each time they are triggered.
+An aframe component that toggles the direction of `animation` `dir` attribures each time they are triggered. Must be used in combination with the animation component.
 
 ![Multisrc component animated demo](https://github.com/elbobo/aframe-animation-toggle-component/blob/master/toggle_light.gif?raw=true)
 
 # What?
 
-A simple component that flips the direction (`dir` attribute) on completion of an `animation` attribute. So you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle.
+A simple component that flips the direction (`dir` attribute) on completion of an `animation` attribute. So you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle. See [aframe docs](https://aframe.io/docs/0.9.0/components/animation.html#sidebar) for more detail on the animation component
 
 # How?
 
@@ -39,6 +39,10 @@ Just include the script in your header then using the `animation-toggle` attribu
 Property | Description | Default
 --- | --- | ---
 names | Comma separated list of animation names | []
+
+# Future
+
+I don't know if this is something that will be available by default in the `animation` component. I assumed that specifying `dir: alternate` would achieve the same thing but it seems that only works in a loop. So, since I seem to toggle animations quite a lot, so this is my solution for now. Hoefully it saves someone else some time. Feedback welcome.
 
 
 
