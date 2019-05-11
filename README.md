@@ -1,5 +1,5 @@
 # aframe-animation-toggle-component
-An aframe component that toggles the direction of `animation` `dir` attribures each time they are triggered. Must be used in combination with the animation component.
+An aframe component that toggles the direction of `animation` `dir` attribures each time they are triggered. Must be used in combination with the [animation component](https://aframe.io/docs/0.9.0/components/animation.html#sidebar). 
 
 ![Multisrc component animated demo](https://github.com/elbobo/aframe-animation-toggle-component/blob/master/toggle_light.gif?raw=true)
 
