@@ -5,7 +5,7 @@ An aframe component that toggles the direction of `animation` `dir` attribures e
 
 # What?
 
-A simple component that flips the direction (`dir` attribute) on completion of an `animation` attribute. So you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle. See [aframe docs](https://aframe.io/docs/0.9.0/components/animation.html#sidebar) for more detail on the animation component
+A simple component that flips the direction (`dir` attribute) on completion of an animation specified with the `animation` attribute. So you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle. See [aframe docs](https://aframe.io/docs/0.9.0/components/animation.html#sidebar) for more detail on the animation component
 
 # How?
 
