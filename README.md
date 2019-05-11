@@ -38,7 +38,7 @@ Just include the script in your header then using the `animation-toggle` attribu
 
 Property | Description | Default
 --- | --- | ---
-names | Comma separated list of animation names | []
+names | Comma separated list of animation names that you want to toggle `dir` property of each time it is triggered | []
 
 # Future
 
