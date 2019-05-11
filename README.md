@@ -1,11 +1,11 @@
 # aframe-animation-toggle-component
-An aframe component that toggles animations
+An aframe component that toggles the direction of animations each time they are triggered.
 
 ![Multisrc component animated demo](https://github.com/elbobo/aframe-animation-toggle-component/blob/master/toggle_light.gif?raw=true)
 
 # What?
 
-A simple component that flips the direction on completion of the animation, so you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle.
+A simple component that flips the direction (`dir` attribute) on completion of an `animation` attribute. So you only need to specify one animation then each time it is triggered it will play in the opposite direction to its previous cycle.
 
 # How?
 
