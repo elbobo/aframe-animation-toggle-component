@@ -19,7 +19,7 @@ Just include the script in your header then using the `animation-toggle` attribu
   <body>
     <a-scene>
       
-       <a-box
+      <a-box
         id="box"
         position="0 1.6 -2"
         color="#333"
