@@ -42,7 +42,7 @@ names | Comma separated list of animation names | []
 
 # Future
 
-I don't know if this is something that will be available by default in the `animation` component. I assumed that specifying `dir: alternate` would achieve the same thing but it seems that only works in a loop. So, since I seem to toggle animations quite a lot, so this is my solution for now. Hoefully it saves someone else some time. Feedback welcome.
+I don't know if this is something that will be available by default in the `animation` component. I assumed that specifying `dir: alternate` would achieve the same thing but it seems that only works in a loop. Some discussion about that [here](https://github.com/supermedium/superframe/issues/192). So, since I seem to toggle animations quite a lot, so this is my solution for now. Hoefully it saves someone else some time. Feedback welcome.
 
 
 
