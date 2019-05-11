@@ -34,5 +34,11 @@ Just include the script in your header then using the `animation-toggle` attribu
   </body>
 ```
 
+# API
+
+Property | Description | Default
+--- | --- | ---
+names | Comma separated list of animation names | []
+
 
 
