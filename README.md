@@ -14,7 +14,7 @@ Just include the script in your header then using the `animation-toggle` attribu
 ```html
   <head>
     <script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
-    <script src="add/it/here.js"></script>
+    <script src="https://rawcdn.githack.com/elbobo/aframe-animation-toggle-component/7ef92afbc8b16ad34c1689945ff9f46c570be2d6/dist/aframe-animation-toggle-component.js"></script>
   </head>
   <body>
     <a-scene>
